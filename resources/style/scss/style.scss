@@ -1,0 +1,93 @@
+/* Color palet: mian:#d1122b, #e1c06c, #161e39, #ecf0f1, #a9c0be */
+
+$main_color: #d1122b;
+$title_font: 'Lobster';
+$title_font2: 'Audiowide';
+
+*, body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif; 
+	position: relative;
+}
+
+/********************* NAVBAR ********************/
+
+#nav-bar{
+	display: none;
+	z-index: 50;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(22, 30, 57, 0.95);
+	// opacity: 0.99;
+	text-align: center;
+	ul{
+		margin-top: 10%;
+		li{
+			display: block;
+			a{
+				color: #a9c0be;
+				font-size: 7em;
+				text-decoration: none;
+			}
+		}
+	}
+
+}
+
+#menu-icon{
+	color: white;
+	z-index: 999;
+	position: fixed;
+	top: 3%;
+	right: 3%;
+	font-size: 5em;
+}
+
+/********************HEADER***********************/
+
+#header{
+	position: relative;
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../css/imgs/club_pic.jpg");
+	background-color: grey;
+	background-size: cover;
+	background-position: center;
+
+	#ust{
+		opacity: 0.8;
+		font-size: 25em;
+		// letter-spacing: 10px;
+		font-weight: 700;
+		z-index: 1;
+		color: $main_color;
+		position: absolute;
+		height: 350px;
+		width:530px;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		text-shadow: 2px 2px #e1c06c;
+		// font-family: $title_font;
+	}
+
+	#mainTitle{
+		z-index: 5;
+		position: absolute;
+		height: 60px;
+		width: 800px;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		font-size: 6em;
+		color: #ecf0f1;
+		font-family: $title_font2;
+	}
+}
