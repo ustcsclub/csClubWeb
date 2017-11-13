@@ -3,6 +3,7 @@
 $main_color: #d1122b;
 $title_font: 'Lobster';
 $title_font2: 'Audiowide';
+$white_color: #ecf0f1;
 
 *, body{
 	padding: 0;
@@ -35,6 +36,9 @@ $title_font2: 'Audiowide';
 			}
 		}
 	}
+	a:hover{
+		color: $white_color;
+	}
 
 }
 
@@ -45,6 +49,7 @@ $title_font2: 'Audiowide';
 	top: 3%;
 	right: 3%;
 	font-size: 5em;
+	cursor: pointer;
 }
 
 /********************HEADER***********************/
@@ -56,6 +61,8 @@ $title_font2: 'Audiowide';
 	background-color: grey;
 	background-size: cover;
 	background-position: center;
+	user-select: none;
+	cursor: default;
 
 	#ust{
 		opacity: 0.8;
