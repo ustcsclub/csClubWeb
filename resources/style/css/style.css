@@ -11,7 +11,7 @@
 #nav-bar {
   display: none;
   z-index: 50;
-  position: absolute;
+  position: fixed;
   height: 100vh;
   width: 100vw;
   background-color: rgba(22, 30, 57, 0.95);
@@ -74,5 +74,29 @@
     font-size: 6em;
     color: #ecf0f1;
     font-family: "Audiowide"; }
+
+/********************** ABOUT US ************************/
+#aboutUs {
+  height: 100vh; }
+  #aboutUs #statement {
+    padding-top: 100px; }
+    #aboutUs #statement h2 {
+      text-align: center;
+      margin: 0; }
+  #aboutUs hr {
+    width: 90%;
+    border-color: #d1122b;
+    margin: 60px auto; }
+  #aboutUs h3 {
+    margin: auto;
+    font-size: 10em;
+    text-align: center;
+    font-family: "Old English Text MT";
+    margin-bottom: 50px; }
+  #aboutUs .officersDiv .row .col-xs-2 div {
+    background-color: purple;
+    border-radius: 400px;
+    width: 180px;
+    height: 180px; }
 
 /*# sourceMappingURL=style.css.map */
